@@ -1,9 +1,8 @@
 class MeuArray {
-+ getSum
-+ getGreater
-+ CountNumber
-+ ChangePosition
-
+	public int getSum()
+	public int getGreater()
+	public int CountNumber()
+	public int ChangePosition()
 
 
 }

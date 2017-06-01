@@ -1,0 +1,10 @@
+class MeuArray {
++ getSum
++ getGreater
++ CountNumber
++ ChangePosition
+
+
+
+}
+

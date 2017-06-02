@@ -5,8 +5,8 @@
             "name": "Java",
             "type": "java",
             "request": "launch",
+            "jdkPath": "/usr/lib/jvm/java-8-openjdk-amd64",
             "stopOnEntry": true,
-            "jdkPath": "C:/Program Files/Java/jdk1.8.0_131/bin",
             "cwd": "${fileDirname}",
             "startupClass": "${fileBasename}",
             "options": [
@@ -18,8 +18,8 @@
             "name": "Java Console App",
             "type": "java",
             "request": "launch",
+            "jdkPath": "/usr/lib/jvm/java-8-openjdk-amd64",
             "stopOnEntry": true,
-            "jdkPath": "C:/Program Files/Java/jdk1.8.0_131/bin",
             "cwd": "${fileDirname}",
             "startupClass": "${fileBasename}",
             "options": [

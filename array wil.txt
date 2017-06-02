@@ -1,9 +1,0 @@
-public class MeuArray {
-	public int getSum()
-	public int getGreater()
-	public int CountNumber()
-	public int ChangePosition()
-
-
-}
-

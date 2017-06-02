@@ -2,7 +2,7 @@
 public class MeuArray
 {
     private int vetor[] = new int[5];
-    private int tam = 5;
+    private int tam = 5; // Criado
 
     public MeuArray()
     {
@@ -13,7 +13,7 @@ public class MeuArray
         vetor[4] = 5;
 
     }
-
+// Construtor que recebe os 5 valores inteiros
     public MeuArray(int x1, int x2, int x3, int x4, int x5)
     {
         vetor[0] = x1;
@@ -32,15 +32,16 @@ public class MeuArray
         vetor[4] = x5;
     }
 
+    // Metodo
     public int getGreater()
     {
         int maior = vetor[0];
 
         for (int i = 0; i < tam; i++)
         {
-            if (maior < vetor[i])
+            if (maior < vetor[i]) //verificar
             {
-                maior = vetor[i];
+                maior = vetor[i]; //assume o maior
             }
         }
         return maior;
@@ -52,18 +53,18 @@ public class MeuArray
 
         for (int i = 0; i < tam; i++)
         {
-            soma += vetor[1];
+            soma += vetor[i]; //soma = soma + vetor [i]
         }
         return soma;
     }
 
-    public int countNumber(int alvo)
+    public int countNumber(int alvo) // quantas vezes aparece o número
     {
-        int ocorrencia = 0;
+        int ocorrencia = 0; //assumindo
 
         for (int i = 0; i < tam; i++)
         {
-            if (alvo == vetor[i])
+            if (alvo == vetor[i]) // se a posição atual é o valor procurado/buscado
             {
                 ocorrencia++;
             }
@@ -73,28 +74,28 @@ public class MeuArray
 
     public void ChagePosition()
     {
-        int i = 0;
-        int j = tam - 1;
+        int i = 0; //marcar o começo
+        int j = tam - 1; // marcar o final
         int aux;
-        while (i < j)
+        while (i < j) //
         {
             aux = vetor[i];
             vetor[i] = vetor[j];
             vetor[j] = aux;
-            i++;
+            i++;    //i e j (vão se fechando)
             j--;
         }
 
     }
 
     @Override
-    public String toString()
+    public String toString() // 
     {
         String ret = "{";
-        for (int i = 0; i < tam; i++)
+        for (int i = 0; i < tam; i++) 
         {
             ret += vetor[i];
-            if (i < tam - 1)
+            if (i < tam - 1) // colocar virgulas entre os número com a exceção da ultima posição
             {
                 ret = ret + ",";
             }

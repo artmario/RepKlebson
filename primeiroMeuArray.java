@@ -5,6 +5,8 @@ public class primeiroArray
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("ola mundo");
+        MeuArray x = new MeuArray(1,2,3,4,5);
+        
+
     }
 }

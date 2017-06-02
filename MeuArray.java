@@ -1,6 +1,6 @@
 public class MeuArray
 {
-        private int vetor[]new int[5];
+        private int vetor[]=new int[5];
         public MeuArray()
         {
 
@@ -12,6 +12,12 @@ public class MeuArray
             vetor[2]=x3;
             vetor[2]=x4;
             vetor[3]=x5;
+        }
+        public int maior()
+        {
+            
+            
+            
         }
     }  
 

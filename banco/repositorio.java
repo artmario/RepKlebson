@@ -19,6 +19,18 @@ public class repositorio
         this.contas=new conta[TAMANHO];
         this.indice = 0;
     }
+    public int getId(String num)
+    {
+        for (int i = 0; i < indice; i++)
+        {
+            if(contas[i].getNum()==num)
+            {
+                return i;
+            }
+            
+        }
+        return -1;
+    }
     
     
 }

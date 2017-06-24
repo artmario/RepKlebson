@@ -8,15 +8,17 @@
  *
  * @author artmario
  */
-public class NewMain
+public class repositorio
 {
+    private conta contas[];
+    private int indice;
+    private final int TAMANHO=100;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args)
+    public repositorio()
     {
-        // TODO code application logic here
+        this.contas=new conta[TAMANHO];
+        this.indice = 0;
     }
+    
     
 }

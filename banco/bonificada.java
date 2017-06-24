@@ -8,10 +8,10 @@
  *
  * @author artmario
  */
-public class poupanca extends conta
+public class bonificada extends conta
 {
     
-    public poupanca(String num, float saldo)
+    public bonificada(String num, float saldo)
     {
         super(num);
     }

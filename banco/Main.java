@@ -8,12 +8,15 @@
  *
  * @author artmario
  */
-public class poupanca extends conta
+public class Main
 {
-    
-    public poupanca(String num, float saldo)
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args)
     {
-        super(num);
+        // TODO code application logic here
     }
     
 }

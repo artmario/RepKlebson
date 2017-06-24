@@ -31,8 +31,10 @@ public class conta
     {
         return saldo;
     }
-    
-    
-    
+
+    public String getNum()
+    {
+        return num;
+    }
     
 }

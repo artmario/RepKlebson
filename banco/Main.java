@@ -16,7 +16,11 @@ public class Main
      */
     public static void main(String[] args)
     {
-        // TODO code application logic here
+        repositorio BB= new repositorio();
+        BB.inserir(new conta("12345"));
+        BB.inserir(new conta("213"));
+        BB.inserir(new conta("23111"));
+        System.out.println(BB);
     }
     
 }

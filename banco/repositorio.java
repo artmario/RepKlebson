@@ -45,11 +45,23 @@ public class repositorio
                 contas[i]=contas[i+1];
             }
             contas[indice-1]=null;
+            indice--;
         }
     }
     public void removerByNum(String num)
     {
         removerByindex(getId(num));
+    }
+
+    @Override
+    public String toString()
+    {
+        String ret="";
+        for (int i = 0; i < indice; i++)
+        {
+            ret+=this.contas[i].getNum()+"\n";
+        }
+        return ret; //To change body of generated methods, choose Tools | Templates.
     }
     
     

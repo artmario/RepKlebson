@@ -15,6 +15,12 @@ public class poupanca extends conta
     {
         super(num);
     }
+
+    public poupanca(String num)
+    {
+        super(num);
+    }
+    
     public void renderJuro(double taxa)
     {
         double redimento=this.getSaldo()*taxa;

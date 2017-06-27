@@ -1,4 +1,4 @@
-public class poupanca extends conta
+public class poupanca extends contaAbs
 {
     
     public poupanca(String num, float saldo)

@@ -1,9 +1,9 @@
-public abstract class conta
+public abstract class contaAbs
 {
     private final String num;
     private double saldo;
 
-    public conta(String num)
+    public contaAbs(String num)
     {
         this.num = num;
         this.saldo = 0;

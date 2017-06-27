@@ -17,7 +17,7 @@ public class fachada
         this.contas = new repositorio();
         
     }
-    public void inserir(conta nova)
+    public void inserir(contaAbs nova)
     {
         this.contas.inserir(nova);
     }

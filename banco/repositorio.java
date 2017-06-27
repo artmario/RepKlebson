@@ -1,12 +1,12 @@
 public class repositorio
 {
-    private conta contas[];
+    private contaAbs contas[];
     private int indice;
     private final int TAMANHO=100;
 
     public repositorio()
     {
-        this.contas=new conta[TAMANHO];
+        this.contas=new contaAbs[TAMANHO];
         this.indice = 0;
     }
     public int getId(String num)
@@ -21,7 +21,7 @@ public class repositorio
         }
         return -1;
     }
-    public void inserir(conta nova)
+    public void inserir(contaAbs nova)
     {
         contas[indice]=nova;
         indice++;

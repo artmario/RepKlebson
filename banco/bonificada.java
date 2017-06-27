@@ -1,4 +1,4 @@
-public class bonificada extends conta
+public class bonificada extends contaAbs
 {
     private double bonus;
     

@@ -11,6 +11,7 @@ public abstract class contaAbs
 
     public void creditar(double valor)
     {
+        System.out.println("cred");
         this.saldo += valor;
     }
     public void debitar(double valor)

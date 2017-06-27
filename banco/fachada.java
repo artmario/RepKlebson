@@ -17,10 +17,21 @@ public class fachada
         this.contas = new repositorio();
         
     }
+    public void creditar(String num,double valor)
+    {
+        this.contas.creditar(num, valor);
+    
+    }
     public void inserir(contaAbs nova)
     {
         this.contas.inserir(nova);
     }
+    public double getSaldo(String num)
+    {
+        return contas.getSaldo(num);
+    }
+    
+    
     public void remover(int index)
     {
         this.contas.removerByindex(index);

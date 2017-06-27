@@ -5,6 +5,12 @@ public class bonificada extends conta
     public bonificada(String num, float saldo)
     {
         super(num);
+        this.creditar(saldo);
+    }
+
+    public bonificada(String num)
+    {
+      super(num);
     }
 
     @Override

@@ -19,15 +19,29 @@ public class quarto
      */
     public static void main(String[] args)
     {
-        String str,inv;
+        double a,b,c,delta,x1,x2;
         Scanner scan=new Scanner(System.in);
-        str=scan.nextLine();
-        inv="";
-        for(int i = str.length(); i >=0 ; i--)
+        System.out.println("entre com os valores:");
+        a=scan.nextDouble();
+        b=scan.nextDouble();
+        c=scan.nextDouble();
+        delta=(b*b)-(4*a*c);
+        System.out.println("");
+        if(delta>0)
         {
-           inv+=str.charAt(i);
+            x1=(-b+Math.sqrt(delta))/(2*a);
+            x2=(-b-Math.sqrt(delta))/(2*a);
+            System.out.println("raizes são "+x1+" e "+x2);
         }
-        System.out.println(inv);
+        else if(delta==0)
+        {
+            x1=-b/(2*a);
+            System.out.println("raizes é"+x1);
+        }
+        else
+        {
+            System.out.println("delta negativo, não há raizes");
+        }
     }
     
 }
